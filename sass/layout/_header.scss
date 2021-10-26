@@ -59,6 +59,7 @@
     .header-list {
         display: flex;
         align-items: center;
+        
     }
     .contakt-list {
         margin-left: auto;
@@ -67,12 +68,13 @@
     
     }
 
-    .header-items:not(:last-child) {
+    .list__items:not(:last-child) {
         margin-right: 50px;
         align-items: center;
         padding-bottom: 32px;
         padding-top: 32px;
        
+          
     }
     .header-logo-1 {
     font-family: Raleway;
@@ -90,16 +92,17 @@
         line-height: 1.19;
         color: var(--secondery-title-color)
     }
-    .heder-studia {
-           font-weight: 500;
-           font-size: 14px;
-           line-height: 1.14;
-           letter-spacing: 0.02em;
-           color:var(--four-title-color);
-           position: relative;
-           transition: color 250ms ease cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .heder-link-link {
+    // .heder-studia {
+    //     display: block;
+    //        font-weight: 500;
+    //        font-size: 14px;
+    //        line-height: 1.14;
+    //        letter-spacing: 0.02em;
+    //        color:var(--four-title-color);
+    //        position: relative;
+    //        transition: color 250ms ease cubic-bezier(0.4, 0, 0.2, 1);
+    // }
+    .list__link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -108,6 +111,7 @@
     position: relative;
     transition: color 250ms ease cubic-bezier(0.4, 0, 0.2, 1);
     }
+
     .contakt__list-tel {
     font-weight: 500;
     font-size: 14px;
